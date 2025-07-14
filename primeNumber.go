@@ -4,6 +4,14 @@ import (
 	"math"
 )
 
+// Validate if number is prime number, returns bool
+// Example:
+//
+//	num := 13
+//	isPrime := primeNumbers.Validate(num)
+//	if isPrime == false {
+//		log.Fatalf("Number : %v is not a prime number", num)
+//	}
 func Validate(number int) bool {
 	if number == 2 {
 		return true
